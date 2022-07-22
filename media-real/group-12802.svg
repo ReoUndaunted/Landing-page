@@ -1,0 +1,20 @@
+<svg width="587" height="253" viewBox="0 0 587 253" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_300_1004)">
+<path d="M14.9999 15.5034C17.8985 7.15575 27.0154 2.73846 35.363 5.63707L570.99 191.627C579.338 194.526 583.755 203.643 580.857 211.99L572 237.496C569.101 245.844 559.985 250.261 551.637 247.363L16.0095 61.3725C7.66191 58.4739 3.24462 49.3571 6.14323 41.0094L14.9999 15.5034Z" fill="white"/>
+</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M194.816 129.62C194.816 131.613 193.458 133.021 191.286 133.021H185.069C182.899 133.021 181.55 131.613 181.55 129.62V122.66C181.55 120.668 182.899 119.25 185.08 119.25H191.286C193.458 119.25 194.816 120.668 194.816 122.66V129.62Z" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M194.816 125.277L198.913 121.923C199.563 121.388 200.55 121.853 200.55 122.7V129.572C200.55 130.42 199.563 130.883 198.913 130.349L194.816 126.995" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M209.99 118.874C210.306 118.349 212.05 116.444 213.293 116.501C213.665 116.533 213.993 116.757 214.26 117.018H214.261C214.874 117.618 216.63 119.881 216.728 120.357C216.972 121.526 215.578 122.2 216.004 123.378C217.091 126.036 218.963 127.909 221.623 128.994C222.8 129.421 223.474 128.029 224.643 128.271C225.119 128.371 227.384 130.126 227.983 130.739V130.739C228.242 131.005 228.468 131.334 228.499 131.706C228.545 133.016 226.522 134.783 226.128 135.009C225.197 135.675 223.983 135.663 222.503 134.975C218.374 133.257 211.774 126.782 210.024 122.497C209.354 121.025 209.309 119.803 209.99 118.874Z" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M221.565 116.75C225.267 117.161 228.19 120.081 228.606 123.782" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M221.565 120.293C223.335 120.638 224.718 122.021 225.063 123.791" stroke="#64748B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_300_1004" x="5.25366" y="4.74756" width="578.493" height="245.505" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="2" dy="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.137255 0 0 0 0 0.266667 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_300_1004"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_300_1004" result="shape"/>
+</filter>
+</defs>
+</svg>
