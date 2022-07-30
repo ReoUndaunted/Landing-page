@@ -1346,67 +1346,7 @@
   background-position: top;
   font-size: 64px;
   color: #1e293b;
-}
-.our-biggest-offer-yet {
-  position: relative;
-  font-size: 48px;
-  letter-spacing: -0.8px;
-  font-weight: 600;
-  display: inline-block;
-  width: 1036px;
-}
-.text-div,
-.we-are-offering-massive-50-di {
-  position: relative;
-  font-weight: 500;
-  display: inline-block;
-}
-.we-are-offering-massive-50-di {
-  letter-spacing: 0.8px;
-  line-height: 28px;
-  color: rgba(13, 35, 68, 0.8);
-  width: 613px;
-}
-.text-div {
-  letter-spacing: 0.4px;
-  line-height: 24px;
-}
-.button-div,
-.frame-div94 {
-  display: flex;
-  align-items: center;
-}
-.button-div {
-  border-radius: 8px;
-  background-color: #1971f5;
-  overflow: hidden;
-  flex-direction: row;
-  padding: 16px 24px;
-  box-sizing: border-box;
-  justify-content: center;
-  text-align: left;
-  color: #fff;
-}
-.frame-div94 {
-  position: absolute;
-  top: 44px;
-  left: 366px;
-  width: 708px;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.frame-div94 > * + * {
-  margin-top: 26px;
-}
-.frame-icon25 {
-  position: absolute;
-  top: 412px;
-  left: 100px;
-  width: 1241px;
-  height: 449px;
-  display: none;
-}
- */
+}*/
 
 * {
   box-sizing: border-box;
@@ -1426,11 +1366,24 @@ body {
 }
 
 .global {
-  background-color: #fff;
+  background-color: #ffffff;
   opacity: 0;
   text-align: left;
   color: rgba(13, 35, 68, 0.8);
 }
+
+.button-div {
+  border-radius: 2vw;
+  background-color: #1971f5;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 1.5vh 6vw;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: left;
+  color: #fff;
+}
+
 /*xxxthis is the of ends global style declarationxxx*/
 .header {
   background-image: url(../media-real/header@3x.png);
@@ -1443,8 +1396,51 @@ body {
 }
 .header,
 .global {
-  font-size: 1.5vw;
+  font-size: 1.75vw;
   font-family: Poppins;
+}
+
+.our-biggest-offer-yet {
+  position: relative;
+  font-size: 5vw;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  display: inline-block;
+  width: 60%;
+}
+.text-div,
+.we-are-offering-massive-50-di {
+  position: relative;
+  /* font-weight: 500; */
+  display: inline-block;
+}
+.we-are-offering-massive-50-di {
+  letter-spacing: 0.8px;
+  line-height: 28px;
+  line-height: 3vw;
+  color: rgba(13, 35, 68, 0.8);
+  width: 80%;
+}
+.text-div {
+  letter-spacing: 0.4px;
+  line-height: 24px;
+}
+.button-div,
+.header_div1 {
+  display: flex;
+  align-items: center;
+}
+
+.header_div1 {
+  position: static;
+  top: 44px;
+
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.header_div1 > * + * {
+  margin-top: 1.5vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1467,7 +1463,7 @@ body {
   }
   /*xxxthis is the of ends global style declarationxxx*/
   .header {
-    position: absolute;
+    /* position: relative; */
     background-image: url(../media-real/header@3x.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -1480,5 +1476,47 @@ body {
   .global {
     font-size: 2.5vw;
     font-family: Poppins;
+  }
+
+  .our-biggest-offer-yet {
+    position: relative;
+    font-size: 5vw;
+    letter-spacing: -0.8px;
+    font-weight: 600;
+    display: inline-block;
+    width: 60%;
+  }
+  .text-div,
+  .we-are-offering-massive-50-di {
+    position: relative;
+    /* font-weight: 500; */
+    display: inline-block;
+  }
+  .we-are-offering-massive-50-di {
+    letter-spacing: 0.8px;
+    line-height: 3vw;
+    color: rgba(13, 35, 68, 0.8);
+    width: 80%;
+  }
+  .text-div {
+    letter-spacing: 0.4px;
+    line-height: 2vw;
+  }
+  .button-div,
+  .header_div1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .header_div1 {
+    position: static;
+    top: 44px;
+    left: 366px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header_div1 > * + * {
+    margin-top: 1.5vw;
   }
 }
